@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet" />
+    <title>Botafogo store</title>
+    <link rel="stylesheet" href="styles/main.scss" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero__background">
+        <video autoplay muted loop>
+          <source src="./images/botafogo-mp4-2_mE52TKs2.mp4" type="video/mp4" />
+          <source />
+        </video>
+      </div>
+      <div class="container">
+        <div class="hero__logo">
+          <img src="images/logo Botafogo.png" alt="Botafogo" />
+          <span>X</span>
+          <img src="images/logo palmeiras.png" alt="Palmeiras" />
+        </div>
+        <p class="hero__text">A venda dos ingressos para Botafogo x Palmeiras começará: <span id="contador"></span></p>
+        <div class="infos-bar">
+          <ul class="infos-bar__infos">
+            <li class="infos-bar__infos__item">
+              <b>Torneio</b>
+              Copa Libertadores
+            </li>
+            <li class="infos-bar__infos__item">
+              <b>Local</b>
+              Estádio Nilton Santos
+            </li>
+            <li class="infos-bar__infos__item">
+              <b>Preço</b>
+              A partir de R$ 130,00
+            </li>
+            <li class="infos-bar__infos__item">
+              <b>Quando</b>
+              14/08/2024 às 21:30
+            </li>
+          </ul>
+          <a class="button button--primary" href="#">Compre já</a>
+        </div>
+      </div>
+    </header>
+    <section class="news">
+      <div class="container" data-aos="fade-right">
+        <div class="news__details">
+          <h2 class="news__details__title">Botafogo 3 X 0 Atlético-mg</h2>
+          <b>07 JUL.2024</b>
+          <p class="news__details__description">
+            Em noite de golaços no Niltão, Botafogo domina e vence Atlético-MG por 3 a 0 no Estádio Nilton Santos. Os gols alvinegros foram marcados por Luiz Henrique, Cuaibano e Savarino.
+          </p>
+        </div>
+        <img class="news__image" src="images/LH.jpg" alt="Foto do Luiz Henrique" />
+      </div>
+    </section>
+    <section class="news news--left">
+      <div class="container" data-aos="fade-left">
+        <div class="news__details">
+          <h2 class="news__details__title">Almada chegou</h2>
+          <b>06 JUL.2024</b>
+          <p class="news__details__description">
+            Thiago Ezequiel Almada, meia de 23 anos natural de Fuerte Apache, na Argentina, é jogador do Botafogo. Campeão do Mundo com La Albiceleste, o novo reforço do Fogão firmou contrato
+            definitivo até junho de 2029. O jogador desembarcou no Rio de Janeiro acompanhado da família na manhã de quinta-feira(04/07), realizou exames e avaliações no Glorioso. A data de
+            apresentação do camisa 23 será divulgada posteriormente. Bienvenido, Almada!
+          </p>
+        </div>
+        <img class="news__image" src="images/Almada.png" alt="Foto do thiago Almanda" />
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
