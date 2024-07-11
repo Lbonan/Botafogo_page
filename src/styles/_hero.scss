@@ -1,33 +1,13 @@
 .hero {
   padding-top: 64px;
   padding-bottom: 100px;
-
-  &__background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 80%;
-    overflow: hidden;
-    z-index: -1;
-
-    video {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      min-width: 100%;
-      min-height: 100%;
-      width: auto;
-      height: auto;
-      transform: translate(-50%, -50%);
-      object-fit: cover;
-      z-index: -1;
-    }
-  }
+  background-image: url(../images/Fundo_JPEG.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 
   .container {
     position: relative;
-    z-index: 2;
   }
 
   &::before {
@@ -35,11 +15,10 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 60%;
+    height: 100%;
     background-color: #000;
     content: "";
-    opacity: 0.8;
-    z-index: 1;
+    opacity: 0.7;
   }
 
   &__text {
@@ -71,11 +50,14 @@
     padding: 40px 0;
 
     &__logo {
-      height: 40px;
+      img {
+        height: 50px;
+      }
+      margin-bottom: 20px;
     }
 
     &__text {
-      font-size: 22px;
+      font-size: 20px;
       line-height: 24px;
       margin: 24px 0;
     }
